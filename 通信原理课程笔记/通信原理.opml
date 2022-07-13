@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<dateCreated>Fri Jun 24 2022 06:09:37 GMT+0800 (中国标准时间)</dateCreated>
+		<dateModified>Fri Jun 24 2022 06:09:37 GMT+0800 (中国标准时间)</dateModified>
+	</head>
+	<body>
+		<outline text="通信原理">
+			<outline text="绪论">
+				<outline text="引言">
+					<outline text="通信的定义"></outline>
+					<outline text="通信系统的组成、分类和工作方式"></outline>
+					<outline text="衡量通信系统的主要性能指标"></outline>
+				</outline>
+				<outline text="通信的基本概念">
+					<outline text="通信">
+						<outline text="由一地向另一地进行消息的有效传递"></outline>
+						<outline text="目的：消息传递"></outline>
+						<outline text="方式：通常采用电信号来承载消息，这种方式被称为“电通信”。"></outline>
+					</outline>
+					<outline text="电通信">
+						<outline text="利用电子等技术手段，借助电信号（含光信号）实现从一地向另一地进行消息的有效传递称为通信。"></outline>
+						<outline text="功能">
+							<outline text="消息的有效传递"></outline>
+							<outline text="采集信息"></outline>
+							<outline text="处理信息"></outline>
+							<outline text="存储信息"></outline>
+							<outline text="显示信息"></outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="通信系统的组成">
+					<outline text="通信系统的一般组成">
+						<outline text="信源">
+							<outline text="把待传输的消息转换成基带信号"></outline>
+							<outline text="基带信号：没有经过调制（进行频谱搬移和变换）的原始点信号"></outline>
+						</outline>
+						<outline text="发送设备">
+							<outline text="将信源产生的基带信号变换成适合在信道中传输的信号"></outline>
+						</outline>
+						<outline text="信道">
+							<outline text="信号的传输通道"></outline>
+						</outline>
+						<outline text="接收设备">
+							<outline text="从带有干扰的接收信号中恢复出相应的基带信号"></outline>
+						</outline>
+						<outline text="信宿">
+							<outline text="将基带信号转换为相应的消息"></outline>
+						</outline>
+						<outline text=""></outline>
+					</outline>
+					<outline text="模拟通信系统的组成">
+						<outline text=""></outline>
+					</outline>
+					<outline text="数字通信系统的组成">
+						<outline text="数字频带传输通信系统">
+							<outline text=""></outline>
+						</outline>
+						<outline text="数字基带传输通信系统">
+							<outline text=""></outline>
+						</outline>
+						<outline text="模拟信号数字化传输通信系统">
+							<outline text=""></outline>
+						</outline>
+						<outline text="数字通信的主要特点">
+							<outline text="数字通信的主要优点">
+								<outline text="抗干扰能力强"></outline>
+								<outline text="差错可控"></outline>
+								<outline text="易加密"></outline>
+								<outline text="易于与现代技术相结合"></outline>
+							</outline>
+							<outline text="数字通信的缺点">
+								<outline text="频带利用率不高">
+									<outline text="其中，Bw为系统允许最大带宽；Bi为每路信号的有效带宽，n为系统在其带宽内最多能容纳的信号路数。n值越大，系统利用率越高。"></outline>
+								</outline>
+								<outline text="系统设备较复杂"></outline>
+							</outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="通信系统的分类与通信方式">
+					<outline text="通信系统的分类">
+						<outline text="按传输媒质">
+							<outline text="有线通信系统"></outline>
+							<outline text="无线通信系统"></outline>
+						</outline>
+						<outline text="按信道中信号的特征">
+							<outline text="模拟通信系统"></outline>
+							<outline text="数字通信系统"></outline>
+						</outline>
+						<outline text="按工作频段">
+							<outline text=""></outline>
+						</outline>
+						<outline text="按调制方式">
+							<outline text="基带传输"></outline>
+							<outline text="频带传输"></outline>
+						</outline>
+						<outline text="按通信业务类型">
+							<outline text="话务通信"></outline>
+							<outline text="非话务通信"></outline>
+						</outline>
+						<outline text="按通信者是否运动">
+							<outline text="移动通信"></outline>
+							<outline text="固定通信"></outline>
+						</outline>
+						<outline text="按信号复用方式">
+							<outline text="频分复用（FDM）"></outline>
+							<outline text="时分复用（TDM）"></outline>
+							<outline text="码分复用（CDM）"></outline>
+							<outline text="空分复用（SDM）"></outline>
+						</outline>
+					</outline>
+					<outline text="通信方式">
+						<outline text="按消息传送的方向与时间分">
+							<outline text="单工"></outline>
+							<outline text="半双工"></outline>
+							<outline text="全双工"></outline>
+							<outline text=""></outline>
+						</outline>
+						<outline text="按数字信号排序方式分">
+							<outline text="串序传输"></outline>
+							<outline text="并序传输"></outline>
+							<outline text=""></outline>
+						</outline>
+						<outline text="按通信网络形式分">
+							<outline text="点对点直通"></outline>
+							<outline text="交换式网通信"></outline>
+							<outline text=""></outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="通信系统的主要性能指标">
+					<outline text="一般通信系统的性能指标">
+						<outline text="有效性"></outline>
+						<outline text="可靠性"></outline>
+						<outline text="适应性"></outline>
+						<outline text="经济性"></outline>
+						<outline text="保密性"></outline>
+						<outline text="标准性"></outline>
+						<outline text="维修性"></outline>
+						<outline text="工艺性"></outline>
+					</outline>
+					<outline text="信息及其度量">
+						<outline text="信息量与消息出现的概率">
+							<outline text="消息x中所含的信息量是消息x出现概率P(x)的函数">
+								<outline text=""></outline>
+							</outline>
+							<outline text="消息出现的概率越小，它所含的信息量越大，反之信息量越小，特别是：">
+								<outline text=""></outline>
+								<outline text=""></outline>
+							</outline>
+							<outline text="若干个相互独立事件构成的消息所含信息量等于各独立事件信息量的和">
+								<outline text=""></outline>
+							</outline>
+						</outline>
+						<outline text="信息量">
+							<outline text="">
+								<outline text="a=2，单位为比特（bit，简写b）"></outline>
+								<outline text="a=e，单位为奈特（nat，简写n）"></outline>
+								<outline text="a=10，单位为哈特莱"></outline>
+							</outline>
+						</outline>
+						<outline text="平均信息量">
+							<outline text=""></outline>
+						</outline>
+					</outline>
+					<outline text="有效性指标的具体描述">
+						<outline text="码元传输速率">
+							<outline text="单位时间内传输的码元数量"></outline>
+							<outline text=""></outline>
+						</outline>
+						<outline text="信息传输速率">
+							<outline text="单位时间内传输的信息量"></outline>
+						</outline>
+						<outline text="">
+							<outline text=""></outline>
+							<outline text=""></outline>
+							<outline text="其中，M代表传递信息的进制数，且以上公式只在数值上成立"></outline>
+						</outline>
+						<outline text="多进制与二进制传输速率之间的关系">
+							<outline text="码元速率保持不变时">
+								<outline text=""></outline>
+							</outline>
+							<outline text="信息速率保持不变时">
+								<outline text=""></outline>
+								<outline text=""></outline>
+							</outline>
+							<outline text="">
+								<outline text=""></outline>
+								<outline text=""></outline>
+							</outline>
+						</outline>
+						<outline text="频带利用率">
+							<outline text=""></outline>
+							<outline text=""></outline>
+						</outline>
+					</outline>
+					<outline text="可靠性指标的具体描述">
+						<outline text="码元差错率">
+							<outline text=""></outline>
+						</outline>
+						<outline text="信息差错率">
+							<outline text=""></outline>
+						</outline>
+						<outline text=""></outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="随机信号与噪声分析">
+				<outline text="随机过程的基本概念">
+					<outline text="随机过程">
+						<outline text="概念">
+							<outline text="随机过程是所有样本函数的集合"></outline>
+							<outline text="随机过程是在时间进程中处于不同时刻的随机变量的集合"></outline>
+						</outline>
+						<outline text="统计描述">
+							<outline text="随机过程的分布函数">
+								<outline text="一维概率分布函数">
+									<outline text=""></outline>
+								</outline>
+								<outline text="一维概率密度函数">
+									<outline text=""></outline>
+								</outline>
+								<outline text="二维概率分布函数">
+									<outline text=""></outline>
+								</outline>
+								<outline text="二维概率密度函数">
+									<outline text=""></outline>
+								</outline>
+								<outline text="n维概率分布函数">
+									<outline text=""></outline>
+								</outline>
+								<outline text="n维概率密度函数">
+									<outline text=""></outline>
+								</outline>
+							</outline>
+							<outline text="随机过程的数字特征">
+								<outline text="数学期望">
+									<outline text="计算公式">
+										<outline text=""></outline>
+									</outline>
+									<outline text="期望说明：随机过程X(t)的数学期望a（t）是一个平均函数，他表示随机过程的n个样本函数曲线都围绕着a（t）变化，a（t）是n个样本函数曲线的摆动中心。故数学期望又常被称为统计平均或均值"></outline>
+								</outline>
+								<outline text="方差">
+									<outline text="计算公式">
+										<outline text=""></outline>
+									</outline>
+								</outline>
+								<outline text="相关函数">
+									<outline text="定义式">
+										<outline text=""></outline>
+									</outline>
+									<outline text="相关函数与协方差函数的关系">
+										<outline text=""></outline>
+									</outline>
+									<outline text="设随机过程X(t)和Y(t)，则有">
+										<outline text=""></outline>
+										<outline text=""></outline>
+									</outline>
+								</outline>
+							</outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="平稳随机过程">
+					<outline text="特征">
+						<outline text="均值与时间t无关，为常数a"></outline>
+						<outline text="自相关函数只与时间间隔τ有关，为R(τ)"></outline>
+					</outline>
+					<outline text="各态历经性">
+						<outline text="假设x(t)是平稳随机过程X(t)的任意实现，则其时间均值和时间相关函数分别是">
+							<outline text=""></outline>
+							<outline text=""></outline>
+						</outline>
+						<outline text="如果下式成立，则称该平稳随机过程具有各态历经性">
+							<outline text=""></outline>
+						</outline>
+					</outline>
+					<outline text="平稳随机过程的自相关函数">
+						<outline text=""></outline>
+						<outline text="性质">
+							<outline text="R(τ)是偶函数"></outline>
+							<outline text="R(0)是R(τ)的上界"></outline>
+							<outline text="R(0)为平稳随机过程的平均功率"></outline>
+							<outline text="R(∞)为平稳随机过程X(t)的直流功率"></outline>
+							<outline text="方差σ²为平稳随机过程X(t)的交流功率"></outline>
+						</outline>
+					</outline>
+					<outline text="平稳随机过程的功率谱密度">
+						<outline text=""></outline>
+						<outline text="维纳-辛钦定理">
+							<outline text=""></outline>
+							<outline text=""></outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="高斯随机过程">
+					<outline text="n维正态概率密度函数">
+						<outline text="对于随机过程X(t)，若其任意n维分布均服从正态分布，则称其为高斯过程。其概率密度如下式："></outline>
+						<outline text="">
+							<outline text="子主题 1"></outline>
+						</outline>
+						<outline text=""></outline>
+						<outline text=""></outline>
+						<outline text="当n=1时，高斯过程的概率密度函数为：">
+							<outline text=""></outline>
+						</outline>
+					</outline>
+					<outline text="高斯过程的性质">
+						<outline text="高斯过程若广义平稳，则必狭义平稳"></outline>
+						<outline text="高斯过程中的随机变量之间若互不相关，则他们也必是统计独立的"></outline>
+						<outline text="若干个高斯过程之和仍是高斯过程"></outline>
+						<outline text="高斯过程经过线性变换之后仍是高斯过程"></outline>
+					</outline>
+					<outline text="高斯随机变量">
+						<outline text="概率密度函数">
+							<outline text=""></outline>
+						</outline>
+						<outline text="正态分布函数">
+							<outline text="一般形式">
+								<outline text=""></outline>
+								<outline text=""></outline>
+							</outline>
+							<outline text="误差函数">
+								<outline text="误差函数">
+									<outline text=""></outline>
+								</outline>
+								<outline text="互补误差函数">
+									<outline text=""></outline>
+								</outline>
+							</outline>
+							<outline text="用误差函数表示正态分布">
+								<outline text=""></outline>
+							</outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="平稳随机过程通过线性系统">
+					<outline text="输出过程表达式">
+						<outline text=""></outline>
+					</outline>
+					<outline text="输出过程的统计特性">
+						<outline text=""></outline>
+					</outline>
+					<outline text="自相关函数">
+						<outline text=""></outline>
+					</outline>
+					<outline text="功率谱">
+						<outline text=""></outline>
+					</outline>
+					<outline text="概率分布">
+						<outline text=""></outline>
+					</outline>
+				</outline>
+				<outline text="窄带随机过程">
+					<outline text=""></outline>
+					<outline text="若X(t)是均值为0、方差为σ²的窄带平稳高斯随机过程">
+						<outline text=""></outline>
+						<outline text=""></outline>
+						<outline text=""></outline>
+						<outline text=""></outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="信道与噪声">
+				<outline text="信道">
+					<outline text="信道，通俗的说，是指以传输媒质为基础的信号通路。"></outline>
+					<outline text="具体地说，信道是指有有线或无线电线路提供的信号通路。"></outline>
+					<outline text="分类">
+						<outline text="狭义信道">
+							<outline text="有线信道"></outline>
+							<outline text="无线信道"></outline>
+						</outline>
+						<outline text="广义信道">
+							<outline text="调制信道">
+								<outline text=""></outline>
+								<outline text=""></outline>
+							</outline>
+							<outline text="编码信道">
+								<outline text=""></outline>
+							</outline>
+						</outline>
+					</outline>
+					<outline text="恒参信道与随参信道">
+						<outline text="恒参信道">
+							<outline text="理想传输信道的特性">
+								<outline text=""></outline>
+								<outline text="恒参信道幅度-频率特性及相位-频率特性的不理想是损害信号传输的重要因素。此外，还存在其他一些因素使信道的输出与输入产生差异(亦可称为畸变),例如非线性畸变、频率偏移及相位抖动等。非线性畸变主要由信道中的元器件(如磁心、电子器件等)的非线性特性引起，造成诸波失真或产生寄生频率等;频率偏移通常是由于载波电话系统中接收端解调载波与发送端调制载波之间的频率有偏差(例如,解调载波可能没有锁定在调制载波上)，而造成信道传输的信号每一分量可能产生的频率变化;相位抖动也是由调制和解调载波发生器的不稳定性造成的，这种抖动的结果相当于在发送信号上附加一个小指数的调频。以上的非线性畸变一旦产生，一般均难以排除,这就需要在进行系统设计时从技术上加以重视。"></outline>
+							</outline>
+						</outline>
+						<outline text="随参信道">
+							<outline text="传输媒质特点">
+								<outline text="信号传输的衰耗随时间随机变化"></outline>
+								<outline text="信号传输的时延随时间随机变化"></outline>
+							</outline>
+							<outline text="多径衰落">
+								<outline text=""></outline>
+							</outline>
+							<outline text="频率弥散">
+								<outline text=""></outline>
+							</outline>
+						</outline>
+					</outline>
+					<outline text="信道的噪声">
+						<outline text="根据来源分类">
+							<outline text="无线电噪声"></outline>
+							<outline text="工业噪声"></outline>
+							<outline text="天电噪声"></outline>
+							<outline text="内部噪声"></outline>
+						</outline>
+						<outline text="根据性质区分">
+							<outline text="单频噪声"></outline>
+							<outline text="脉冲干扰"></outline>
+							<outline text="起伏噪声"></outline>
+						</outline>
+						<outline text="等效噪声带宽">
+							<outline text=""></outline>
+						</outline>
+					</outline>
+					<outline text="香农公式与信道容量">
+						<outline text=""></outline>
+						<outline text=""></outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="模拟调制系统">
+				<outline text="幅度调制">
+					<outline text="表达式">
+						<outline text="时域表达式">
+							<outline text=""></outline>
+						</outline>
+						<outline text="频域表达式">
+							<outline text=""></outline>
+						</outline>
+					</outline>
+					<outline text="常规双边带调制（AM）">
+						<outline text="时域表达式">
+							<outline text=""></outline>
+						</outline>
+						<outline text="频域表达式">
+							<outline text=""></outline>
+						</outline>
+						<outline text="调制效率">
+							<outline text=""></outline>
+						</outline>
+					</outline>
+					<outline text="抑制载波双边带调幅（DSB-SC）">
+						<outline text="时域表达式">
+							<outline text=""></outline>
+						</outline>
+						<outline text="频域表达式">
+							<outline text=""></outline>
+						</outline>
+						<outline text=""></outline>
+					</outline>
+					<outline text="单边带调制（SSB）">
+						<outline text="时域表达式">
+							<outline text=""></outline>
+						</outline>
+						<outline text="频域表达式">
+							<outline text=""></outline>
+						</outline>
+						<outline text=""></outline>
+					</outline>
+					<outline text="残留边带调制（VSB）">
+						<outline text="时域表达式">
+							<outline text=""></outline>
+						</outline>
+						<outline text="频域表达式">
+							<outline text=""></outline>
+							<outline text=""></outline>
+						</outline>
+					</outline>
+					<outline text="线性调制系统的抗噪声性能">
+						<outline text="窄带高斯噪声的数学表达">
+							<outline text=""></outline>
+						</outline>
+						<outline text="信噪比增益（G）">
+							<outline text=""></outline>
+						</outline>
+						<outline text="线性调制系统相干解调系统的抗噪声性能">
+							<outline text=""></outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="角度调制">
+					<outline text="表达式">
+						<outline text="">
+							<outline text=""></outline>
+							<outline text=""></outline>
+						</outline>
+					</outline>
+					<outline text="窄带调频阈值">
+						<outline text=""></outline>
+					</outline>
+					<outline text="窄带调频">
+						<outline text=""></outline>
+						<outline text=""></outline>
+					</outline>
+					<outline text="宽带调频">
+						<outline text=""></outline>
+						<outline text=""></outline>
+					</outline>
+				</outline>
+				<outline text=""></outline>
+			</outline>
+			<outline text="数字基带传输系统">
+				<outline text="概念">
+					<outline text="数字基带信号">
+						<outline text="未经调制的数字信号"></outline>
+					</outline>
+					<outline text="数字基带传输系统">
+						<outline text="不经载波调制而直接传输数字基带信号的系统，常用于传输距离不太远的情况下。"></outline>
+					</outline>
+					<outline text="数字带通传输系统">
+						<outline text="包括调制和解调过程的传输系统"></outline>
+					</outline>
+					<outline text="数字基带信号的常用码型">
+						<outline text="单极性非归零NRZ码"></outline>
+						<outline text="双极性非归零NRZ码"></outline>
+						<outline text="单极性归零RZ码"></outline>
+						<outline text="双极性归零RZ码"></outline>
+						<outline text="差分码"></outline>
+						<outline text="其他码型">
+							<outline text="AMI码"></outline>
+							<outline text="HDB_3码"></outline>
+							<outline text="双相码"></outline>
+							<outline text="Miller码"></outline>
+							<outline text="CMI码"></outline>
+							<outline text="多进制码"></outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="数字基带信号传输">
+					<outline text=""></outline>
+				</outline>
+				<outline text="数字基带信号的频谱特性"></outline>
+			</outline>
+		</outline>
+	</body>
+</opml>
